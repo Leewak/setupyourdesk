@@ -144,6 +144,7 @@ export const posts: Post[] = [
     priceRange: "Under $500",
     author: "SetupYourDesk Reviews",
     wordCount: 2800,
+    heroImage: { src: "https://images.pexels.com/photos/9068381/pexels-photo-9068381.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Three men in gray suits writing an exam indoors. Focus on business attire and concentration.", caption: "Photo by cottonbro studio on Pexels" },
     quickAnswer: "The best standing desk under $500 in 2026 is the FlexiSpot E7 Pro ($399) — it has the strongest frame (250lb capacity), quietest dual-motor system, and most reliable height memory. For a budget pick under $300, the Vari Electric Standing Desk ($395 on sale) is the most stable option. Avoid cheap single-motor desks under $200 — they develop wobble within months.",
     faq: [
       { q: "What is the best standing desk under $500?", a: "The FlexiSpot E7 Pro is the best standing desk under $500 in 2026. At $399, it offers a dual-motor system (no wobble at standing height), 4 memory presets, 250lb weight capacity, and a 15-year frame warranty. It's the pick we recommend to anyone who asks — we've tested it for 6 months with zero issues. Second pick: the Uplift V2 Commercial (base only, ~$499) for a larger workspace." },
@@ -222,6 +223,7 @@ export const posts: Post[] = [
     featured: true,
     author: "SetupYourDesk Reviews",
     wordCount: 2400,
+    heroImage: { src: "https://images.pexels.com/photos/28955771/pexels-photo-28955771.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Sophisticated office workspace with a sleek ultra-wide monitor, keyboard, and plants, perfect for tech enthusiasts.", caption: "Photo by Minh Phuc on Pexels" },
     quickAnswer: "Best monitors for home office in 2026 by category: Best overall (4K): LG 27UK850-W 27\" 4K IPS ($349) — excellent color accuracy, USB-C, and built-in KVM. Best ultrawide: LG 34WN80C-B 34\" ($399) — eliminates the need for a second monitor. Best budget: Dell P2422H 24\" FHD ($169) — reliable IPS panel, zero dead-on-arrival issues across our 4 test units. Best for Mac: Apple Studio Display ($1,599) if you're all-in on Mac; LG 27MD5KA-B UltraFine 5K ($1,299) as the alternative.",
     faq: [
       { q: "What monitor size is best for a home office?", a: "27\" is the sweet spot for most home office setups. It's large enough for side-by-side windows at 1080p or 4K, fits most desks without feeling overwhelming, and doesn't require excessive head movement. If you work primarily in one application (writing, video editing, coding), a 32\"–34\" ultrawide eliminates the need for a second monitor. Go 24\" only if desk space is severely limited." },
@@ -301,6 +303,7 @@ export const posts: Post[] = [
     featured: false,
     author: "SetupYourDesk Reviews",
     wordCount: 2200,
+    heroImage: { src: "https://images.pexels.com/photos/31726663/pexels-photo-31726663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Stylish home office setup with ergonomic chair, plants, and tech accessories creating a modern work environment.", caption: "Photo by Alpha En on Pexels" },
     quickAnswer: "Best ergonomic chairs for remote work in 2026: Best overall: Herman Miller Aeron ($1,795) — 12-year warranty, proven 30-year track record, customizable for almost any body type. Best mid-range: Secretlab TITAN Evo ($549) — best lumbar support at this price, built for long sessions, great for gamers and remote workers. Best budget under $300: Flexispot BS13 ($269) — the most adjustable chair we've found under $300. Avoid generic Amazon chairs claiming 'ergonomic' — they rarely have adjustable lumbar support.",
     faq: [
       { q: "Is a Herman Miller chair worth the price?", a: "Yes, if you work from home 40+ hours/week and plan to keep the chair for 5+ years. The Aeron has a 12-year warranty (Knoll/Steelcase offer similar), and used Aerons from offices sell for $400–600 and last another decade. At $1,795 new, that's $179/year over 10 years — less than a poor-quality chair you'll replace every 2 years. If budget is tight, buy a used Aeron in good condition." },
@@ -366,6 +369,7 @@ export const posts: Post[] = [
     featured: false,
     author: "SetupYourDesk Reviews",
     wordCount: 3200,
+    heroImage: { src: "https://images.pexels.com/photos/7491599/pexels-photo-7491599.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A stylish home office setup featuring dual monitors and ambient lighting, perfect for productivity and relaxation.", caption: "Photo by Tunde  TNT on Pexels" },
     quickAnswer: "The complete home office setup priority order for 2026: (1) Ergonomic chair ($300–500 minimum — you sit in this all day). (2) Desk at correct height (ideally a standing desk, $400–600). (3) Monitor at eye level (27\" 4K, $300–400 or use a monitor arm for $30–80). (4) Proper lighting (no overhead glare, bias lighting behind monitor, $50–150). (5) Keyboard and mouse (mechanical keyboard + ergonomic mouse, $100–200). (6) Audio (headset or speakers for calls, $50–200). Total for a solid setup: $1,200–2,000. Budget version hitting all priorities: ~$700.",
     faq: [
       { q: "How do I set up a productive home office on a budget?", a: "Budget home office setup under $700: Standing desk (FlexiSpot E2 $299) + Ergonomic chair (used Herman Miller or new Flexispot BS13 $269) + 24\" FHD monitor (Dell P2422H $169) + Monitor arm ($30) + USB webcam (Logitech C920 $70) + LED desk lamp ($35) = $872. Cut to $500 by using a fixed-height desk ($150) and monitor riser ($20) instead. The chair is always worth spending more on — it affects your health every day." },
@@ -432,6 +436,7 @@ export const posts: Post[] = [
     featured: false,
     author: "SetupYourDesk Reviews",
     wordCount: 1900,
+    heroImage: { src: "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A woman engaging in a video conference using a laptop at home, taking notes.", caption: "Photo by Anna Shvets on Pexels" },
     quickAnswer: "Best webcams for video calls in 2026: Best overall: Logitech C920s ($79) — the most reliable 1080p webcam at any price, ideal for Zoom and Teams. Best 4K: Logitech Brio 500 ($149) — 4K/30fps with Show Mode and RightLight 4 for low-light correction. Best budget under $50: Anker PowerConf C200 ($49) — shockingly good for the price. Best for Mac: Opal C1 ($299) — cinema-quality video but pricy. Key lesson: good lighting matters more than the webcam model.",
     faq: [
       { q: "What is the best webcam for professional video calls?", a: "The Logitech Brio 500 ($149) is the best webcam for professional video calls in 2026. It shoots 4K (downscaled to 1080p on calls for sharp output), has Show Mode to display your screen naturally, and RightLight 4 AI corrects for poor lighting automatically. For most people, the Logitech C920s ($79) is sufficient and produces genuinely professional-looking video at 1080p with good lighting." },
@@ -495,6 +500,7 @@ export const posts: Post[] = [
     featured: false,
     author: "SetupYourDesk Reviews",
     wordCount: 1700,
+    heroImage: { src: "https://images.pexels.com/photos/7491599/pexels-photo-7491599.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A stylish home office setup featuring dual monitors and ambient lighting, perfect for productivity and relaxation.", caption: "Photo by Tunde  TNT on Pexels" },
     quickAnswer: "The ideal home office lighting setup costs $80–150: (1) Primary light — position near a window or add a daylight LED bulb (5000K–6500K) in a lamp facing you. (2) Bias lighting — LED strip behind your monitor ($15–30) reduces eye strain by 50%+ in a dark room. (3) Key light for video calls — a ring light ($30–60) or panel light placed at eye level, 2–3 feet in front of you. That's it. No expensive smart lighting needed for most home offices.",
     faq: [
       { q: "What color temperature lighting is best for a home office?", a: "5000K–6500K (cool white/daylight) for tasks requiring focus and detail work — it mimics natural daylight, improves alertness, and reduces eye strain on screens. 3000K–4000K (warm white) for creative work and afternoon hours — it's less stimulating and comfortable for longer sessions. Many LED panels are adjustable. The worst choice: yellow incandescent bulbs (2700K) for a work office — they cause eye fatigue when paired with a bright screen." },
@@ -519,6 +525,7 @@ export const posts: Post[] = [
     coverColor: "#1E3A8A",
     author: "Setup Your Desk Editorial",
     wordCount: 1240,
+    heroImage: { src: "https://images.pexels.com/photos/16323580/pexels-photo-16323580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A focused developer coding at a modern office with dual monitors, showcasing a tech-driven workspace.", caption: "Photo by Ofspace LLC, Culture on Pexels" },
     quickAnswer: "The best monitor for a home office balances screen size (24-27 inches), resolution (1440p minimum), and ergonomic features like height adjustment and blue light filtering. For most remote workers, a 27-inch IPS monitor with 1440p resolution and USB-C connectivity offers the best value and productivity boost without breaking the budget.",
     faq: [
       { q: "What size monitor is best for working from home?", a: "For most remote workers, a 27-inch monitor offers the ideal balance of productivity and practicality. It provides enough screen real estate for side-by-side windows without requiring excessive desk space. If desk space is limited, 24 inches is acceptable for single-tasking work. For maximum productivity with sufficient space, consider a dual-monitor setup with 24-inch displays or an ultra-wide 34-inch monitor." },
@@ -552,6 +559,7 @@ export const posts: Post[] = [
     coverColor: "#0F4C3A",
     author: "Setup Your Desk Editorial",
     wordCount: 1654,
+    heroImage: { src: "https://images.pexels.com/photos/6863279/pexels-photo-6863279.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Flat lay of tax form, pencils, and calculator on black background, emphasizing tax deductions.", caption: "Photo by Nataliya Vaitkevich on Pexels" },
     quickAnswer: "Home office tax deductions let you claim expenses related to your dedicated workspace, reducing taxable income by hundreds or thousands annually. You can use either the simplified method (flat rate per square foot) or actual expense method (itemized costs). Most remote workers qualify if they have a dedicated workspace used regularly for business.",
     faq: [
       { q: "Can I deduct home office expenses if I'm a W-2 employee working from home?", a: "Generally, W-2 employees cannot deduct home office expenses as of 2017, due to tax law changes. However, if you're self-employed, a business owner, or a gig worker reporting Schedule C income, you absolutely can deduct qualifying home office expenses. Your employment classification determines your eligibility. Consult a tax professional for your specific situation." },
@@ -585,6 +593,7 @@ export const posts: Post[] = [
     coverColor: "#3B0764",
     author: "Setup Your Desk Editorial",
     wordCount: 1950,
+    heroImage: { src: "https://images.pexels.com/photos/29509454/pexels-photo-29509454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A 2025 calendar on a desk with coffee, sticky notes, and a plant in an office setting.", caption: "Photo by Matheus Bertelli on Pexels" },
     quickAnswer: "Essential desk accessories include ergonomic monitors, keyboard and mouse, cable organizers, desk lamps, and storage solutions that improve comfort, productivity, and workspace organization. The best desk accessories combine functionality with aesthetics, turning a bare desk into a focused, efficient work environment.",
     faq: [
       { q: "What are the most essential desk accessories for a home office?", a: "The three most essential desk accessories are a monitor stand or arm, an ergonomic keyboard and mouse, and a task lamp. These accessories address the most common pain points: neck strain from improper monitor height, wrist pain from typing posture, and eye fatigue from poor lighting. Everything else is valuable but secondary to these three foundational items." },
