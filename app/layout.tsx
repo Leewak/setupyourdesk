@@ -8,7 +8,7 @@ const dmSerif = DM_Serif_Display({ variable: "--font-dm-serif", weight: "400", s
 
 export const metadata: Metadata = {
   title: { default: "Setup Your Desk — The Remote Worker's Gear Lab", template: "%s | Setup Your Desk" },
-  description: "In-depth reviews and setup guides for home office gear. Standing desks, monitors, chairs, and everything in between.",
+  description: "The Remote Worker's Gear Lab",
   metadataBase: new URL("https://setupyourdesk.info"),
 };
 
