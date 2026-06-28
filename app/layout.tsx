@@ -21,12 +21,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-screen flex flex-col antialiased" style={{ background: "#F5F4F0", color: "#1A1916" }}>
         <header style={{ background: "#FFFFFF", borderBottom: "1px solid #E8E6E0" }}>
           <nav className="max-w-5xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src="/logo-icon.png" alt="Setup Your Desk" style={{ height: 36, width: 36, objectFit: "contain" }} />
-              <span className="font-bold text-lg" style={{ fontFamily: "var(--font-dm-serif)", color: "#1A1916", letterSpacing: "-0.01em" }}>
-                Setup Your Desk
-              </span>
+            <a href="/" className="font-bold text-lg" style={{ fontFamily: "var(--font-dm-serif)", color: "#1A1916", letterSpacing: "-0.01em" }}>
+              SetupYourDesk<span style={{ color: "#2563EB" }}>.</span>
             </a>
             <div className="hidden md:flex items-center gap-6">
               {["Standing Desks", "Monitors", "Chairs", "Accessories"].map((label) => (
