@@ -38,6 +38,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-1">{children}</main>
         <footer style={{ background: "#FFFFFF", borderTop: "1px solid #E8E6E0" }}>
           <div className="max-w-5xl mx-auto px-5 sm:px-8 py-10">
+            <div className="flex flex-wrap gap-x-6 gap-y-2 justify-center mb-6">
+              {[["Privacy Policy","/privacy"],["Cookie Policy","/cookie-policy"],["Affiliate Disclosure","/affiliate-disclosure"],["Disclaimer","/disclaimer"],["Terms of Use","/terms"],["Contact","/contact"]].map(([label,href])=>(
+                <a key={label} href={href} className="text-xs" style={{ color: "#B0ADA6" }}>{label}</a>
+              ))}
+            </div>
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
               <span className="font-bold" style={{ fontFamily: "var(--font-dm-serif)", color: "#1A1916" }}>
                 SetupYourDesk<span style={{ color: "#2563EB" }}>.</span>
