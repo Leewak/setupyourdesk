@@ -18,7 +18,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
 body {
-  background-color: #F5F4F0;
+  background-color: #f1ebd5;
   color: #1A1916;
   font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
