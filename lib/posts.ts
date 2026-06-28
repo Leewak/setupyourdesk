@@ -18,6 +18,7 @@ export interface Post {
   affiliates?: AffiliateProduct[];
   author?: string;
   wordCount?: number;
+  coverColor?: string;
   sections?: Section[];
 }
 
