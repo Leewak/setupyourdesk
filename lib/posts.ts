@@ -144,7 +144,7 @@ export const posts: Post[] = [
     priceRange: "Under $500",
     author: "SetupYourDesk Reviews",
     wordCount: 2800,
-    heroImage: { src: "https://images.pexels.com/photos/9068381/pexels-photo-9068381.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Three men in gray suits writing an exam indoors. Focus on business attire and concentration.", caption: "Photo by cottonbro studio on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/20213730/pexels-photo-20213730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up view of sleek under desk cable management in an office setting, enhancing workspace organization.", caption: "Photo by Minh Phuc on Pexels" },
     quickAnswer: "The best standing desk under $500 in 2026 is the FlexiSpot E7 Pro ($399) — it has the strongest frame (250lb capacity), quietest dual-motor system, and most reliable height memory. For a budget pick under $300, the Vari Electric Standing Desk ($395 on sale) is the most stable option. Avoid cheap single-motor desks under $200 — they develop wobble within months.",
     faq: [
       { q: "What is the best standing desk under $500?", a: "The FlexiSpot E7 Pro is the best standing desk under $500 in 2026. At $399, it offers a dual-motor system (no wobble at standing height), 4 memory presets, 250lb weight capacity, and a 15-year frame warranty. It's the pick we recommend to anyone who asks — we've tested it for 6 months with zero issues. Second pick: the Uplift V2 Commercial (base only, ~$499) for a larger workspace." },
@@ -161,7 +161,7 @@ export const posts: Post[] = [
     sections: [
       {
         h2: "How We Tested 6 Standing Desks Over 3 Months",
-        image: { src: "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?w=800&q=80&auto=format", alt: "Standing desk home office setup with monitor", caption: "A well-configured standing desk setup with monitor arm and cable management" },
+        image: { src: "https://images.pexels.com/photos/8001032/pexels-photo-8001032.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Side profile of a modern office desk with a computer monitor, emphasizing minimalism and technology.", caption: "Photo by Pavel Danilyuk on Pexels" },
         paras: [
           "We tested six standing desks — FlexiSpot E7 Pro, Uplift V2, Vari Electric, Flexispot E2, SHW Electric, and Autonomous SmartDesk Pro — in a real home office over three months. Each desk was assembled by the same person following the included instructions, loaded with the same equipment (27\" monitor, MacBook, keyboard, mouse, webcam, speakers — total weight 45 lbs), and used for a minimum of 4 weeks as a primary work desk.",
           "We measured stability at sitting and standing height (using a spirit level and a glass of water on the surface to detect micro-vibrations), motor noise (decibel meter at 1 meter distance), height transition speed, and assembly time. We also tracked all mechanical issues reported over the test period and checked against common user complaints in verified Amazon reviews.",
@@ -169,7 +169,7 @@ export const posts: Post[] = [
       },
       {
         h2: "FlexiSpot E7 Pro: Our Top Pick Under $500",
-        image: { src: "https://images.unsplash.com/photo-1613944431257-2f7dd2e97b97?w=800&q=80&auto=format", alt: "FlexiSpot E7 Pro standing desk with dual motors", caption: "The FlexiSpot E7 Pro features a dual-motor system with 250 lb weight capacity" },
+        image: { src: "https://images.pexels.com/photos/7353913/pexels-photo-7353913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Warmly lit home workspace featuring a laptop, lamp, and green plants on a desk.", caption: "Photo by Kenneth Surillo on Pexels" },
         paras: [
           "The FlexiSpot E7 Pro ($399) is the best standing desk under $500 based on our test results. Its dual-motor system produced zero perceptible wobble at standing height with our 45 lb load — the glass-of-water test showed no ripple at any height. Motor noise measured 44 dB at 1 meter, equivalent to a quiet library. The 4-memory preset system is accurate to within 1mm — hitting your preferred sitting and standing heights every time without adjustment.",
           "The frame itself is the strongest in its price class: a 250 lb weight capacity (most competitors max at 154 lb), a triple cross-beam design that eliminates the frame flex common in cheaper desks, and a powder-coated steel finish that shows no scratches after 3 months of daily use. Assembly took 42 minutes with two people — slightly longer than competitors, but the instructions are clear and no steps require improvisation. FlexiSpot's 15-year warranty is also the longest of any desk we tested under $500.",
@@ -185,7 +185,7 @@ export const posts: Post[] = [
       },
       {
         h2: "Uplift V2: The Best Premium Standing Desk",
-        image: { src: "https://images.unsplash.com/photo-1593640773673-0d3c6e0de6c7?w=800&q=80&auto=format", alt: "Premium home office desk setup with accessories", caption: "A professional home office setup — the Uplift V2 is the gold standard for serious remote workers" },
+        image: { src: "https://images.pexels.com/photos/8001034/pexels-photo-8001034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Sleek adjustable height standing desk with a single motor for ergonomic office solutions.", caption: "Photo by Pavel Danilyuk on Pexels" },
         paras: [
           "The Uplift V2 ($599 for the base, more with tabletop) is the best standing desk for professionals who want a genuinely premium experience. The build quality difference versus the FlexiSpot E7 Pro is noticeable: the frame corners fit with tighter tolerances, the drawer accessories integrate more elegantly, and the UPLIFT Advanced Keypad has a larger display and smoother feel. Stability at standing height is equivalent to the E7 Pro — both are excellent.",
           "Where Uplift distinguishes itself is customization. The V2 is available in 7 frame colors, 15+ tabletop sizes and materials (including solid wood, bamboo, and custom colors), and dozens of add-ons (cable spine, drawer, privacy panel, monitor arm, balance board holder). For a home office where aesthetics matter alongside ergonomics, Uplift lets you build a desk that looks designed rather than assembled. The 15-year warranty matches FlexiSpot, and US-based customer support is consistently praised in verified reviews.",
@@ -223,7 +223,7 @@ export const posts: Post[] = [
     featured: true,
     author: "SetupYourDesk Reviews",
     wordCount: 2400,
-    heroImage: { src: "https://images.pexels.com/photos/28955771/pexels-photo-28955771.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Sophisticated office workspace with a sleek ultra-wide monitor, keyboard, and plants, perfect for tech enthusiasts.", caption: "Photo by Minh Phuc on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/37848030/pexels-photo-37848030.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A desk setup showing photo editing software on multiple monitors, a keyboard, and peripherals.", caption: "Photo by Tom Fisk on Pexels" },
     quickAnswer: "Best monitors for home office in 2026 by category: Best overall (4K): LG 27UK850-W 27\" 4K IPS ($349) — excellent color accuracy, USB-C, and built-in KVM. Best ultrawide: LG 34WN80C-B 34\" ($399) — eliminates the need for a second monitor. Best budget: Dell P2422H 24\" FHD ($169) — reliable IPS panel, zero dead-on-arrival issues across our 4 test units. Best for Mac: Apple Studio Display ($1,599) if you're all-in on Mac; LG 27MD5KA-B UltraFine 5K ($1,299) as the alternative.",
     faq: [
       { q: "What monitor size is best for a home office?", a: "27\" is the sweet spot for most home office setups. It's large enough for side-by-side windows at 1080p or 4K, fits most desks without feeling overwhelming, and doesn't require excessive head movement. If you work primarily in one application (writing, video editing, coding), a 32\"–34\" ultrawide eliminates the need for a second monitor. Go 24\" only if desk space is severely limited." },
@@ -240,7 +240,7 @@ export const posts: Post[] = [
     sections: [
       {
         h2: "Testing Methodology: 4 Months, 9 Monitors, Real Work Tasks",
-        image: { src: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=800&q=80&auto=format", alt: "Multiple monitors on a desk in home office setup", caption: "We tested 9 monitors side-by-side across 4 months of real work tasks" },
+        image: { src: "https://images.pexels.com/photos/5833747/pexels-photo-5833747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A home office setup featuring multiple monitors displaying trading charts and data analysis.", caption: "Photo by AlphaTradeZone on Pexels" },
         paras: [
           "We tested 9 monitors across 4 months of real work: document writing, coding, video editing, video calls, and spreadsheet work. Each monitor was used as the primary display for a minimum of 3 weeks. Color accuracy was measured with a Datacolor SpyderX colorimeter. Brightness uniformity was tested with a spectrometer at 25 points across the panel. Text sharpness was assessed by the same person reading the same document at the same distance on each monitor.",
           "The test setup: a MacBook Pro M3 (USB-C output), a Windows machine with an RTX 3070 (DisplayPort output), and a dedicated video calling laptop (integrated GPU, HDMI). We tested compatibility with all three sources on each monitor to surface real-world connectivity issues — which are more common than reviews suggest.",
@@ -248,7 +248,7 @@ export const posts: Post[] = [
       },
       {
         h2: "LG 27UK850-W: The Best 4K Monitor for Home Office",
-        image: { src: "https://images.unsplash.com/photo-1616628188167-c0b56a5d42f4?w=800&q=80&auto=format", alt: "LG 4K monitor displaying workspace on desk", caption: "The LG 27UK850-W 27\" 4K IPS — our top pick for home office at $349" },
+        image: { src: "https://images.pexels.com/photos/31213678/pexels-photo-31213678.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A clean and minimalist home office setup with plants, monitor, and microphone.", caption: "Photo by Alpha En on Pexels" },
         paras: [
           "The LG 27UK850-W ($349) is our best overall home office monitor recommendation. The 27\" IPS panel at 4K resolution produces text that looks nearly as sharp as a printed page — a meaningfully different reading experience from 1080p at the same size. Color accuracy measured at ΔE 1.8 out of the box (under 2 is considered professionally accurate). The 99% sRGB coverage is more than sufficient for the color-sensitive work most home office professionals do.",
           "The connectivity is what makes this monitor exceptional at its price: a 60W USB-C port powers a MacBook Pro while displaying at 4K, a full-size DisplayPort for desktop connections, 2× HDMI 2.0, 4× USB-A downstream ports, and a built-in KVM switch that lets you use one set of keyboard and mouse with two computers connected simultaneously. This KVM feature alone saves $80–150 versus buying a separate switch — and it works reliably in our 4-month test with zero dropouts.",
@@ -264,7 +264,7 @@ export const posts: Post[] = [
       },
       {
         h2: "LG 34WN80C-B Ultrawide: Best Monitor for Eliminating the Second Screen",
-        image: { src: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80&auto=format", alt: "Ultrawide monitor setup on clean desk", caption: "An ultrawide like the LG 34WN80C-B gives you two monitors' worth of workspace in one panel" },
+        image: { src: "https://images.pexels.com/photos/31213678/pexels-photo-31213678.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A clean and minimalist home office setup with plants, monitor, and microphone.", caption: "Photo by Alpha En on Pexels" },
         paras: [
           "The LG 34WN80C-B 34\" ultrawide ($399) is the best single-monitor setup for professionals who want multiple windows open simultaneously without the bezel gap and alignment headaches of dual monitors. The 21:9 aspect ratio at 3440×1440 resolution gives you the horizontal screen real estate of two 27\" 1080p monitors — but as one continuous display with no gap in the middle.",
           "The practical difference for video calls: no more choosing between sharing a presentation and seeing your participants. On an ultrawide, your presentation sits on the left half and your Zoom grid stays visible on the right — you can see both throughout the call. For developers, having a code editor and terminal side-by-side at this resolution is genuinely transformative. The curve (3440R radius) is noticeable and welcome at this size — edges don't require head movement.",
@@ -320,7 +320,7 @@ export const posts: Post[] = [
     sections: [
       {
         h2: "Why Your Chair Is the Most Important Investment in Your Home Office",
-        image: { src: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80&auto=format", alt: "Person sitting in ergonomic office chair at desk", caption: "Ergonomic chair posture: feet flat, knees at 90°, lumbar supported, monitor at eye level" },
+        image: { src: "https://images.pexels.com/photos/31726663/pexels-photo-31726663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Stylish home office setup with ergonomic chair, plants, and tech accessories creating a modern work environment.", caption: "Photo by Alpha En on Pexels" },
         paras: [
           "You spend more time in your office chair than in any other piece of furniture except your bed. A bad chair doesn't just cause discomfort — it causes compounding health damage. Poor lumbar support leads to lower back pain within months; incorrect seat height causes hip flexor tightening; fixed armrests force shoulder elevation that causes neck and shoulder tension. These issues compound across years of 8-hour workdays in a way that a bad monitor or slow laptop never does.",
           "The economics of a good chair are also misunderstood. A $1,795 Herman Miller Aeron over 10 years costs $179/year. The average person replaces a $200–300 'ergonomic' chair from Amazon every 2–3 years — spending $700–1,100 over the same period while sitting in inferior support the whole time. Quality chairs from Herman Miller, Steelcase, and Humanscale hold their value on the used market and are available in excellent condition from office clearances for $400–700.",
@@ -328,7 +328,7 @@ export const posts: Post[] = [
       },
       {
         h2: "Herman Miller Aeron: The 30-Year Benchmark No Chair Has Beaten",
-        image: { src: "https://images.unsplash.com/photo-1503652601-a2e99e7e7f8c?w=800&q=80&auto=format", alt: "Modern ergonomic office chair in home office", caption: "The Herman Miller Aeron — available in size A, B, and C for different body types" },
+        image: { src: "https://images.pexels.com/photos/1181657/pexels-photo-1181657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Adult woman working in a contemporary office setting with computer and microphone.", caption: "Photo by Christina Morillo on Pexels" },
         paras: [
           "The Herman Miller Aeron ($1,795 new, $400–700 used) is the most extensively researched and clinically tested office chair ever produced. It was designed in 1994 using medical studies of human posture and has been updated continuously since. The PostureFit SL lumbar support system is adjustable at both the sacrum and lumbar levels — the only chair we tested that correctly supports the natural S-curve of the spine rather than just pushing at one point.",
           "The 8Z Pellicle mesh — an 8-zone elastomer suspension system — distributes weight evenly across the seat without the heat buildup of foam cushions. In our 6-month test across three testers with different body types (5'3\" female, 5'10\" male, 6'2\" male), the Aeron was the only chair all three rated as genuinely comfortable at the 6-hour mark. It comes in three sizes (A for smaller frames, B for average, C for larger) — measure your body dimensions against Herman Miller's size guide before ordering. The 12-year warranty covers all mechanical components.",
@@ -369,7 +369,7 @@ export const posts: Post[] = [
     featured: false,
     author: "SetupYourDesk Reviews",
     wordCount: 3200,
-    heroImage: { src: "https://images.pexels.com/photos/7491599/pexels-photo-7491599.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A stylish home office setup featuring dual monitors and ambient lighting, perfect for productivity and relaxation.", caption: "Photo by Tunde  TNT on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/19055620/pexels-photo-19055620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A modern workspace featuring a laptop, digital clock, gaming mouse, and keyboard, ideal for work and tech enthusiasts.", caption: "Photo by Arjunn. la on Pexels" },
     quickAnswer: "The complete home office setup priority order for 2026: (1) Ergonomic chair ($300–500 minimum — you sit in this all day). (2) Desk at correct height (ideally a standing desk, $400–600). (3) Monitor at eye level (27\" 4K, $300–400 or use a monitor arm for $30–80). (4) Proper lighting (no overhead glare, bias lighting behind monitor, $50–150). (5) Keyboard and mouse (mechanical keyboard + ergonomic mouse, $100–200). (6) Audio (headset or speakers for calls, $50–200). Total for a solid setup: $1,200–2,000. Budget version hitting all priorities: ~$700.",
     faq: [
       { q: "How do I set up a productive home office on a budget?", a: "Budget home office setup under $700: Standing desk (FlexiSpot E2 $299) + Ergonomic chair (used Herman Miller or new Flexispot BS13 $269) + 24\" FHD monitor (Dell P2422H $169) + Monitor arm ($30) + USB webcam (Logitech C920 $70) + LED desk lamp ($35) = $872. Cut to $500 by using a fixed-height desk ($150) and monitor riser ($20) instead. The chair is always worth spending more on — it affects your health every day." },
@@ -386,7 +386,7 @@ export const posts: Post[] = [
     sections: [
       {
         h2: "The Right Order: What to Buy First When Building a Home Office",
-        image: { src: "https://images.unsplash.com/photo-1524758631624-e2822132143e?w=800&q=80&auto=format", alt: "Clean organized home office setup with desk and monitor", caption: "A well-planned home office: proper lighting, monitor at eye level, clean cable management" },
+        image: { src: "https://images.pexels.com/photos/4256211/pexels-photo-4256211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A sleek minimalist desk setup with computer, keyboard, mouse, and wall art.", caption: "Photo by Zarak Khan on Pexels" },
         paras: [
           "The biggest home office mistake is spending on aesthetics before fundamentals. A beautiful desk with a bad chair, wrong monitor height, and poor lighting will make you less productive and cause physical strain within months. The correct spending sequence: (1) Chair — you sit in it all day, every day, and posture issues compound over years. (2) Desk at the correct height or a standing desk. (3) Monitor at eye level. (4) Lighting — both for eye health and video calls. (5) Peripherals — keyboard, mouse, webcam. (6) Aesthetics — cable management, desk accessories, plants.",
           "Total budget guidance: a solid setup that won't cause health issues costs $1,200–1,500 new, or $700–900 if you buy refurbished where possible (Herman Miller chairs, used monitors). A 'good enough' setup under $500 is possible — use a fixed-height desk at correct height, a quality used chair, and a budget monitor on a monitor arm — but involves compromises that many people upgrade away from within a year.",
@@ -394,7 +394,7 @@ export const posts: Post[] = [
       },
       {
         h2: "Getting the Ergonomics Right (the Step Most People Skip)",
-        image: { src: "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?w=800&q=80&auto=format", alt: "Proper ergonomic keyboard and mouse position on desk", caption: "Keyboard should be at elbow height; mouse at the same level to avoid shoulder elevation" },
+        image: { src: "https://images.pexels.com/photos/28461033/pexels-photo-28461033.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A stylish home office with a desk, chair, and lush green plants near a window with blinds.", caption: "Photo by Alpha En on Pexels" },
         paras: [
           "Correct ergonomic setup takes 20 minutes and prevents years of neck, back, and wrist problems. The five-point checklist: (1) Chair height: sit with your feet flat on the floor, knees at 90°. (2) Desk height: forearms parallel to the floor when typing — your elbows should be at desk height, not lifted or dropped. (3) Monitor: top of screen at or slightly below eye level, 20–30 inches from your eyes. (4) Monitor distance: if you lean forward to read, move the monitor closer or increase font size — not your body. (5) Keyboard and mouse: at elbow height, with wrists neutral (not bent up or down).",
           "The most common setup error: monitor too low. Most people use their laptop screen or a monitor sitting directly on the desk — both are 8–12 inches below ideal eye level. Looking down all day causes the neck to hold 40–60 extra pounds of effective head weight, causing tension that progresses to chronic pain within months. A monitor arm ($30–80) or solid monitor riser ($20–40) is the highest-ROI ergonomic purchase for most people. Fix monitor height before buying anything else.",
@@ -410,7 +410,7 @@ export const posts: Post[] = [
       },
       {
         h2: "Cable Management: The Difference Between a Professional and Amateur Setup",
-        image: { src: "https://images.unsplash.com/photo-1593642632169-7374e4c31b65?w=800&q=80&auto=format", alt: "Cable managed desk setup with monitor arm", caption: "Clean cable management transforms a messy desk into a professional workspace" },
+        image: { src: "https://images.pexels.com/photos/10567179/pexels-photo-10567179.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up of a man organizing a desk, handling a charger next to a laptop, wire basket, and notebooks.", caption: "Photo by Ron Lach on Pexels" },
         paras: [
           "Cable management is 95% about hiding cables before they get messy, not untangling them after. The system that works: (1) Under-desk cable tray ($20–40, mounts under the desk surface) catches all loose cables — power strips, laptop charger, monitor cables, audio cables — in one contained run. (2) Cable spine or raceway along the desk leg routes cables vertically from tray to floor outlet. (3) Velcro cable ties bind individual cable bundles — not zip ties, which make future changes difficult. (4) Monitor arm with built-in cable channel routes monitor, USB-C, and audio cables through the arm instead of hanging loose.",
           "The single biggest cable simplification: a USB-C docking station. With a modern docking station ($60–150), your entire desk — monitor, keyboard, mouse, audio, Ethernet, webcam, and phone charging — connects to your laptop via one cable. Disconnect one cable when you leave, plug in one cable when you return. The difference in daily friction is disproportionate to the cost.",
@@ -436,7 +436,7 @@ export const posts: Post[] = [
     featured: false,
     author: "SetupYourDesk Reviews",
     wordCount: 1900,
-    heroImage: { src: "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A woman engaging in a video conference using a laptop at home, taking notes.", caption: "Photo by Anna Shvets on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/6937870/pexels-photo-6937870.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "An adult man in a suit engages in a video call while sitting on a sofa indoors.", caption: "Photo by Diva Plavalaguna on Pexels" },
     quickAnswer: "Best webcams for video calls in 2026: Best overall: Logitech C920s ($79) — the most reliable 1080p webcam at any price, ideal for Zoom and Teams. Best 4K: Logitech Brio 500 ($149) — 4K/30fps with Show Mode and RightLight 4 for low-light correction. Best budget under $50: Anker PowerConf C200 ($49) — shockingly good for the price. Best for Mac: Opal C1 ($299) — cinema-quality video but pricy. Key lesson: good lighting matters more than the webcam model.",
     faq: [
       { q: "What is the best webcam for professional video calls?", a: "The Logitech Brio 500 ($149) is the best webcam for professional video calls in 2026. It shoots 4K (downscaled to 1080p on calls for sharp output), has Show Mode to display your screen naturally, and RightLight 4 AI corrects for poor lighting automatically. For most people, the Logitech C920s ($79) is sufficient and produces genuinely professional-looking video at 1080p with good lighting." },
@@ -452,7 +452,7 @@ export const posts: Post[] = [
     sections: [
       {
         h2: "The Truth About Webcam Quality: Lighting Matters More",
-        image: { src: "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=800&q=80&auto=format", alt: "Home office setup with webcam and professional lighting", caption: "Good lighting transforms your video call appearance more than any webcam upgrade" },
+        image: { src: "https://images.pexels.com/photos/4031707/pexels-photo-4031707.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A person having a video call on a laptop, indoors, showcasing digital communication.", caption: "Photo by Edward Jenner on Pexels" },
         paras: [
           "Before buying a new webcam, change your lighting. In our comparative tests, the same Logitech C920 in poor lighting versus good lighting looked like two different cameras — the well-lit version consistently rated as more professional by blind evaluators who didn't know which camera produced which image. The $79 webcam with a $30 ring light outperformed the $299 webcam in a dark corner in every test we ran.",
           "The lighting principles that apply to every webcam: (1) Face a light source — window, ring light, or desk lamp should be in front of you, not behind or to the side. (2) Eliminate backlighting — a bright window behind you turns you into a silhouette on any webcam. (3) Soft, diffused light is more flattering than direct harsh light — a ring light creates an attractive, even illumination. (4) Match color temperature — if your room has warm yellow bulbs and your monitor produces cool white light, the mix looks unprofessional.",
@@ -460,7 +460,7 @@ export const posts: Post[] = [
       },
       {
         h2: "Logitech C920s: The Best Webcam for Most People at $79",
-        image: { src: "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?w=800&q=80&auto=format", alt: "Webcam on monitor with home office in background", caption: "The Logitech C920s sits on any monitor and delivers professional 1080p video call quality" },
+        image: { src: "https://images.pexels.com/photos/6285269/pexels-photo-6285269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Smiling man wearing headphones having a video call on a laptop in a home office setting.", caption: "Photo by Gustavo Fring on Pexels" },
         paras: [
           "The Logitech C920s ($79) is our best webcam recommendation for most home office users. It has been the professional video call standard for 8 years because it works — reliably, consistently, without driver issues, across Zoom, Teams, Google Meet, and every other platform. The 1080p/30fps output has proper light balance processing that makes faces look natural rather than washed out. The field of view (78°) fits one person comfortably without showing too much background.",
           "In our test comparing it against the newer Logitech Brio 500 ($149) on the same call simultaneously, 6 out of 10 participants couldn't tell which window was the more expensive camera. Under good lighting, both look excellent. The C920s loses at the edges of its capability — low light performance is noticeably worse than the Brio's RightLight 4 AI correction, and there's no Show Mode for displaying your screen. For most users in a reasonably lit room: the C920s is the rational choice.",
@@ -500,7 +500,7 @@ export const posts: Post[] = [
     featured: false,
     author: "SetupYourDesk Reviews",
     wordCount: 1700,
-    heroImage: { src: "https://images.pexels.com/photos/7491599/pexels-photo-7491599.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A stylish home office setup featuring dual monitors and ambient lighting, perfect for productivity and relaxation.", caption: "Photo by Tunde  TNT on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/17486595/pexels-photo-17486595.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Silhouette of a man using a smartphone in a dark room with computer screen lighting.", caption: "Photo by Phil Desforges on Pexels" },
     quickAnswer: "The ideal home office lighting setup costs $80–150: (1) Primary light — position near a window or add a daylight LED bulb (5000K–6500K) in a lamp facing you. (2) Bias lighting — LED strip behind your monitor ($15–30) reduces eye strain by 50%+ in a dark room. (3) Key light for video calls — a ring light ($30–60) or panel light placed at eye level, 2–3 feet in front of you. That's it. No expensive smart lighting needed for most home offices.",
     faq: [
       { q: "What color temperature lighting is best for a home office?", a: "5000K–6500K (cool white/daylight) for tasks requiring focus and detail work — it mimics natural daylight, improves alertness, and reduces eye strain on screens. 3000K–4000K (warm white) for creative work and afternoon hours — it's less stimulating and comfortable for longer sessions. Many LED panels are adjustable. The worst choice: yellow incandescent bulbs (2700K) for a work office — they cause eye fatigue when paired with a bright screen." },
@@ -525,7 +525,7 @@ export const posts: Post[] = [
     coverColor: "#1E3A8A",
     author: "Setup Your Desk Editorial",
     wordCount: 1240,
-    heroImage: { src: "https://images.pexels.com/photos/16323580/pexels-photo-16323580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A focused developer coding at a modern office with dual monitors, showcasing a tech-driven workspace.", caption: "Photo by Ofspace LLC, Culture on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/37848030/pexels-photo-37848030.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A desk setup showing photo editing software on multiple monitors, a keyboard, and peripherals.", caption: "Photo by Tom Fisk on Pexels" },
     quickAnswer: "The best monitor for a home office balances screen size (24-27 inches), resolution (1440p minimum), and ergonomic features like height adjustment and blue light filtering. For most remote workers, a 27-inch IPS monitor with 1440p resolution and USB-C connectivity offers the best value and productivity boost without breaking the budget.",
     faq: [
       { q: "What size monitor is best for working from home?", a: "For most remote workers, a 27-inch monitor offers the ideal balance of productivity and practicality. It provides enough screen real estate for side-by-side windows without requiring excessive desk space. If desk space is limited, 24 inches is acceptable for single-tasking work. For maximum productivity with sufficient space, consider a dual-monitor setup with 24-inch displays or an ultra-wide 34-inch monitor." },
@@ -593,7 +593,7 @@ export const posts: Post[] = [
     coverColor: "#3B0764",
     author: "Setup Your Desk Editorial",
     wordCount: 1950,
-    heroImage: { src: "https://images.pexels.com/photos/29509454/pexels-photo-29509454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A 2025 calendar on a desk with coffee, sticky notes, and a plant in an office setting.", caption: "Photo by Matheus Bertelli on Pexels" },
+    heroImage: { src: "https://images.pexels.com/photos/20955060/pexels-photo-20955060.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A woman focused on her laptop in a stylish office setting, showcasing productivity.", caption: "Photo by Vitaly Gariev on Pexels" },
     quickAnswer: "Essential desk accessories include ergonomic monitors, keyboard and mouse, cable organizers, desk lamps, and storage solutions that improve comfort, productivity, and workspace organization. The best desk accessories combine functionality with aesthetics, turning a bare desk into a focused, efficient work environment.",
     faq: [
       { q: "What are the most essential desk accessories for a home office?", a: "The three most essential desk accessories are a monitor stand or arm, an ergonomic keyboard and mouse, and a task lamp. These accessories address the most common pain points: neck strain from improper monitor height, wrist pain from typing posture, and eye fatigue from poor lighting. Everything else is valuable but secondary to these three foundational items." },
