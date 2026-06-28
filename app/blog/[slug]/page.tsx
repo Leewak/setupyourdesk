@@ -89,10 +89,41 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           )}
           <div style={{ color: "#374151", lineHeight: "1.8" }}>
             <p className="text-lg mb-6" style={{ color: "#4B5563" }}>{post.excerpt}</p>
-            <h2 className="text-2xl font-bold mt-8 mb-4" style={{ fontFamily: "var(--font-dm-serif)", color: "#111827" }}>How We Test</h2>
-            <p>Every product in this guide was purchased and tested by our team for a minimum of 4 weeks under real work conditions. We don&apos;t accept review units in exchange for positive coverage.</p>
-            <h2 className="text-2xl font-bold mt-8 mb-4" style={{ fontFamily: "var(--font-dm-serif)", color: "#111827" }}>What to Look For</h2>
-            <p>The home office product market is full of overhyped gear. We cut through the noise by focusing on: build quality, long-term durability, real ergonomic benefit, value for money, and customer support quality.</p>
+            {post.sections?.map((section, i) => (
+              <div key={i} className="mb-10">
+                <h2 className="text-2xl font-bold mt-8 mb-4" style={{ fontFamily: "var(--font-dm-serif)", color: "#111827" }}>{section.h2}</h2>
+                {section.image && (
+                  <div className="my-5 rounded-xl overflow-hidden" style={{ border: "1px solid #E5E7EB" }}>
+                    <img src={section.image.src} alt={section.image.alt} className="w-full object-cover" style={{ maxHeight: 380 }} />
+                    {section.image.caption && <p className="text-xs text-center py-2 px-4" style={{ color: "#9CA3AF", background: "#F9FAFB" }}>{section.image.caption}</p>}
+                  </div>
+                )}
+                {section.paras.map((para, j) => <p key={j} className="mb-4 leading-relaxed" style={{ color: "#374151" }}>{para}</p>)}
+                {section.list && (
+                  <ul className="my-4 space-y-2 pl-4">
+                    {section.list.map((item, k) => (
+                      <li key={k} className="text-sm flex items-start gap-2" style={{ color: "#374151" }}>
+                        <span className="mt-1 shrink-0" style={{ color: "#2563EB" }}>✓</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {section.tip && (
+                  <div className="my-4 p-4 rounded-lg text-sm leading-relaxed" style={{ background: "#EFF6FF", border: "1px solid #BFDBFE", color: "#1E40AF" }}>
+                    <strong>Pro tip: </strong>{section.tip}
+                  </div>
+                )}
+              </div>
+            ))}
+            {!post.sections && (
+              <>
+                <h2 className="text-2xl font-bold mt-8 mb-4" style={{ fontFamily: "var(--font-dm-serif)", color: "#111827" }}>How We Test</h2>
+                <p>Every product in this guide was purchased and tested by our team for a minimum of 4 weeks under real work conditions. We don&apos;t accept review units in exchange for positive coverage.</p>
+                <h2 className="text-2xl font-bold mt-8 mb-4" style={{ fontFamily: "var(--font-dm-serif)", color: "#111827" }}>What to Look For</h2>
+                <p>The home office product market is full of overhyped gear. We cut through the noise by focusing on: build quality, long-term durability, real ergonomic benefit, value for money, and customer support quality.</p>
+              </>
+            )}
           </div>
           {post.affiliates && post.affiliates.length > 1 && (
             <div className="my-10 p-5 rounded-xl" style={{ background: "#F0FDF4", border: "1px solid #BBF7D0" }}>
