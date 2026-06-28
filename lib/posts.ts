@@ -29,6 +29,9 @@ export const categories = [
   { slug: "chairs", label: "Chairs" },
   { slug: "accessories", label: "Accessories" },
   { slug: "setup-guides", label: "Setup Guides" },
+];
+
+export const posts: Post[
   {
     slug: "best-standing-desk",
     title: "Best Standing Desk 2024: Top Picks for Remote Workers & Home Offices",
@@ -128,9 +131,7 @@ export const categories = [
       { h2: "Common Mistakes When Choosing an Ergonomic Chair", paras: ["Even with good intentions, remote workers often make mistakes when selecting an ergonomic chair. The most common error is prioritizing aesthetics or brand recognition over actual ergonomic features. A beautiful chair that doesn't support your spine is worse than a less attractive model that keeps you pain-free.", "Another mistake is assuming one chair fits everyone. Your neighbor's favorite ergonomic chair might cause you discomfort because of your different body type, height, or work habits. Review user feedback from people with similar proportions and work patterns.", "Many people also underestimate the importance of adjustability, then find their fixed chair doesn't work for their body. Avoid chairs with locked positions or minimal adjustment. Even slight differences in height, arm length, or torso proportions can make the difference between comfort and pain.", "Failing to adjust your chair properly after purchase is another common problem. People receive their ergonomic chair and never touch the adjustment mechanisms, settling for default settings that don't match their needs. Spend an hour learning and testing all adjustments. Refer back to your chair's manual when making changes."] },
     ],
   },
-];
-
-export const posts: Post[] = [
+] = [
   {
     slug: "best-standing-desk-under-500",
     title: "Best Standing Desks Under $500 in 2026: 6 Tested, One Clear Winner",
