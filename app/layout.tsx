@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, DM_Serif_Display } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
@@ -14,6 +15,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${dmSerif.variable}`}>
+      <head>
+        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9394532963824272" crossOrigin="anonymous" strategy="afterInteractive" />
+      </head>
       <body className="min-h-screen flex flex-col antialiased" style={{ background: "#F5F4F0", color: "#1A1916" }}>
         <header style={{ background: "#FFFFFF", borderBottom: "1px solid #E8E6E0" }}>
           <nav className="max-w-5xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
