@@ -19,6 +19,7 @@ export interface Post {
   author?: string;
   wordCount?: number;
   coverColor?: string;
+  heroImage?: { src: string; alt: string; caption?: string; };
   sections?: Section[];
 }
 
