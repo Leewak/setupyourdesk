@@ -8,7 +8,7 @@ const sections = [
   { h: "5. Cookies", body: "We use cookies for analytics, advertising, and preferences. You can control cookies through your browser settings. See our Cookie Policy for details." },
   { h: "6. Your Rights", body: "You may have rights to access, correct, or delete your data. EU/UK: GDPR applies. California: CCPA applies. Contact us to exercise your rights." },
   { h: "7. Changes", body: "We may update this policy. Changes posted here with a revised date." },
-  { h: "8. Contact", body: "Questions? Email: guifrhi.khalid@gmail.com" },
+  { h: "8. Contact", body: "Questions? Email: hello@setupyourdesk.info" },
 ];
 export default function PrivacyPage() {
   return (

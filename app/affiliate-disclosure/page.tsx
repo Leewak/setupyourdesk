@@ -11,7 +11,7 @@ export default function AffiliatePage() {
         { h: "Same Price for You", body: "You pay exactly the same price whether you use our affiliate link or go directly to the retailer's site. The commission comes from the retailer's marketing budget." },
         { h: "Our Review Standards", body: "We only recommend home office products we have personally tested or thoroughly researched. We test gear for ergonomics, build quality, and value for money. Affiliate relationships do not affect our ratings." },
         { h: "Products with Affiliate Links", body: "Affiliate relationships include but are not limited to standing desk brands, ergonomic chair companies, monitor arm manufacturers, and home office accessory retailers." },
-        { h: "Contact", body: "Questions? Email guifrhi.khalid@gmail.com" },
+        { h: "Contact", body: "Questions? Email hello@setupyourdesk.info" },
       ].map(({ h, body }) => (
         <div key={h} className="mb-8">
           <h2 className="text-base font-bold mb-2" style={{ color: "#1A1916" }}>{h}</h2>

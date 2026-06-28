@@ -13,7 +13,7 @@ export default function TermsPage() {
         { h: "4. Disclaimer of Warranties", body: "Site is provided 'as is'. We disclaim all warranties to the fullest extent permitted by law." },
         { h: "5. Limitation of Liability", body: "We shall not be liable for any damages arising from use of this website." },
         { h: "6. Changes", body: "We may modify these Terms at any time. Continued use constitutes acceptance." },
-        { h: "7. Contact", body: "Email guifrhi.khalid@gmail.com" },
+        { h: "7. Contact", body: "Email hello@setupyourdesk.info" },
       ].map(({ h, body }) => (
         <div key={h} className="mb-8">
           <h2 className="text-base font-bold mb-2" style={{ color: "#1A1916" }}>{h}</h2>
