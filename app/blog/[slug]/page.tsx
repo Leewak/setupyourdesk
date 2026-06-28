@@ -48,8 +48,18 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
-      <div className="py-12" style={{ background: "#F5F4F0" }}>
-        <div className="max-w-3xl mx-auto px-5 sm:px-8">
+      <div style={{ background: "#F5F4F0" }}>
+        {/* Hero image */}
+        <div className="w-full overflow-hidden" style={{ maxHeight: 420 }}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`https://picsum.photos/seed/${post.slug}/1200/420`}
+            alt={post.title}
+            className="w-full object-cover"
+            style={{ maxHeight: 420 }}
+          />
+        </div>
+        <div className="max-w-3xl mx-auto px-5 sm:px-8 pt-12 pb-12">
           <div className="flex items-center gap-2 text-xs mb-8" style={{ color: "#9CA3AF" }}>
             <Link href="/" className="hover:text-blue-600 transition-colors" style={{ color: "#6B7280" }}>Home</Link>
             <span>/</span>
