@@ -33,6 +33,10 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
           <div className="divide-y" style={{ borderColor: "#E8E6E0" }}>
             {catPosts.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="py-5 flex items-start gap-4 group block">
+                {post.heroImage && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={post.heroImage.src} alt={post.heroImage.alt} loading="lazy" className="w-24 h-20 sm:w-32 sm:h-24 shrink-0 rounded-lg object-cover" style={{ border: "1px solid #E8E6E0" }} />
+                )}
                 <div className="flex-1">
                   <h3 className="font-semibold leading-snug group-hover:text-blue-600 transition-colors" style={{ color: "#1A1916" }}>{post.title}</h3>
                   <p className="text-sm mt-1 line-clamp-2" style={{ color: "#6B6860" }}>{post.excerpt}</p>

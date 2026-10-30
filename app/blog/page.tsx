@@ -25,6 +25,10 @@ export default function BlogPage() {
         <div className="divide-y" style={{ borderColor: "#E8E6E0" }}>
           {posts.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className="py-5 flex items-start gap-4 group block">
+              {post.heroImage && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={post.heroImage.src} alt={post.heroImage.alt} loading="lazy" className="w-24 h-20 sm:w-32 sm:h-24 shrink-0 rounded-lg object-cover" style={{ border: "1px solid #E8E6E0" }} />
+              )}
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-2 mb-1.5">
                   <span className="tag-pill">{getCategoryLabel(post.category)}</span>

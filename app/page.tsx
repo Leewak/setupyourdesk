@@ -58,6 +58,10 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {featured.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="group block rounded-xl overflow-hidden" style={{ border: "1px solid #E8E6E0", background: "#fff" }}>
+                {post.heroImage && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={post.heroImage.src} alt={post.heroImage.alt} loading="lazy" className="w-full aspect-[16/9] object-cover" />
+                )}
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-3">
                     <span className="tag-pill">{getCategoryLabel(post.category)}</span>
@@ -84,6 +88,10 @@ export default function HomePage() {
           <div className="divide-y" style={{ borderColor: "#E8E6E0" }}>
             {latest.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="py-5 flex items-start gap-4 group block">
+                {post.heroImage && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={post.heroImage.src} alt={post.heroImage.alt} loading="lazy" className="w-24 h-20 sm:w-32 sm:h-24 shrink-0 rounded-lg object-cover" style={{ border: "1px solid #E8E6E0" }} />
+                )}
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 mb-1.5">
                     <span className="tag-pill">{getCategoryLabel(post.category)}</span>
