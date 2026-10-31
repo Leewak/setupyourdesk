@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, DM_Serif_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import { AdsterraSideRails } from "@/components/Adsterra";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const dmSerif = DM_Serif_Display({ variable: "--font-dm-serif", weight: "400", subsets: ["latin"] });
@@ -36,6 +37,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </nav>
         </header>
         <main className="flex-1">{children}</main>
+        <AdsterraSideRails />
         <footer style={{ background: "#FFFFFF", borderTop: "1px solid #E8E6E0" }}>
           <div className="max-w-5xl mx-auto px-5 sm:px-8 py-10">
             <div className="flex flex-wrap gap-x-6 gap-y-2 justify-center mb-6">
