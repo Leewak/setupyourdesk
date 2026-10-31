@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { AdsterraInline, AdsterraNative } from "@/components/Adsterra";
+import { AdsterraInline, AdsterraNative, AdsterraSponsoredLink } from "@/components/Adsterra";
 import { getPost, posts, formatDate, getCategoryLabel } from "@/lib/posts";
 import type { Metadata } from "next";
 
@@ -174,6 +174,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
               </div>
             </div>
           )}
+          <AdsterraSponsoredLink className="mt-10" />
           <AdsterraNative className="mt-12" />
           <div className="flex flex-wrap gap-2 mt-10 pt-8" style={{ borderTop: "1px solid #E5E7EB" }}>
             {post.tags.map((tag) => <span key={tag} className="text-xs px-2.5 py-1 rounded" style={{ background: "#F3F4F6", color: "#6B7280" }}>{tag}</span>)}
