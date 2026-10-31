@@ -100,6 +100,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
           )}
           <div style={{ color: "#374151", lineHeight: "1.8" }}>
             <p className="text-lg mb-6" style={{ color: "#4B5563" }}>{post.excerpt}</p>
+            <AdsterraInline className="my-8" />
             {post.sections?.map((section, i) => (
               <div key={i} className="mb-10">
                 <h2 className="text-2xl font-bold mt-8 mb-4" style={{ fontFamily: "var(--font-dm-serif)", color: "#111827" }}>{section.h2}</h2>
@@ -125,7 +126,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
                     <strong>Pro tip: </strong>{section.tip}
                   </div>
                 )}
-                {i === 1 && post.sections!.length > 2 && <AdsterraInline className="my-10" />}
+                {i % 2 === 1 && i < post.sections!.length - 1 && <AdsterraInline className="my-10" />}
               </div>
             ))}
             {!post.sections && (

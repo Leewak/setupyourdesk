@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { posts, getFeaturedPosts, categories, formatDate, getCategoryLabel } from "@/lib/posts";
 import type { Metadata } from "next";
+import { AdsterraInline, AdsterraNative } from "@/components/Adsterra";
 
 export const metadata: Metadata = {
   title: "Setup Your Desk — The Remote Worker's Gear Lab",
@@ -49,6 +50,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div className="px-5"><AdsterraInline className="my-8" /></div>
+
       {/* Featured */}
       <section className="py-14">
         <div className="max-w-5xl mx-auto px-5 sm:px-8">
@@ -81,6 +84,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <div className="px-5"><AdsterraInline className="my-8" /></div>
+
       {/* Latest */}
       <section className="py-10 pb-20" style={{ borderTop: "1px solid #E8E6E0" }}>
         <div className="max-w-5xl mx-auto px-5 sm:px-8">
@@ -109,6 +114,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <div className="px-5 max-w-5xl mx-auto"><AdsterraNative className="my-10" /></div>
     </>
   );
 }

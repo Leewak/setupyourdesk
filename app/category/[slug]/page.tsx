@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { categories, getPostsByCategory, formatDate } from "@/lib/posts";
 import type { Metadata } from "next";
+import { AdsterraInline, AdsterraNative } from "@/components/Adsterra";
 
 export async function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));
@@ -29,6 +30,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         <div className="tag-pill mb-3 inline-flex">{cat.label}</div>
         <h1 className="text-3xl font-bold mb-1" style={{ fontFamily: "var(--font-dm-serif)", color: "#1A1916" }}>{cat.label}</h1>
         <p className="text-sm mb-10" style={{ color: "#B0ADA6" }}>{catPosts.length} articles</p>
+        <AdsterraInline className="mb-8" />
         {catPosts.length > 0 ? (
           <div className="divide-y" style={{ borderColor: "#E8E6E0" }}>
             {catPosts.map((post) => (
@@ -48,6 +50,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
         ) : (
           <p style={{ color: "#B0ADA6" }}>No articles yet. Check back soon.</p>
         )}
+        <AdsterraNative className="mt-12" />
       </div>
     </div>
   );

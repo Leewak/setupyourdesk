@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { posts, categories, formatDate, getCategoryLabel } from "@/lib/posts";
 import type { Metadata } from "next";
+import { AdsterraInline, AdsterraNative } from "@/components/Adsterra";
 
 export const metadata: Metadata = {
   title: "All Reviews & Guides — Home Office Gear",
@@ -22,6 +23,7 @@ export default function BlogPage() {
             <Link key={cat.slug} href={`/category/${cat.slug}`} className="tag-pill hover:border-blue-300 transition-colors">{cat.label}</Link>
           ))}
         </div>
+        <AdsterraInline className="mb-8" />
         <div className="divide-y" style={{ borderColor: "#E8E6E0" }}>
           {posts.map((post) => (
             <Link key={post.slug} href={`/blog/${post.slug}`} className="py-5 flex items-start gap-4 group block">
@@ -41,6 +43,7 @@ export default function BlogPage() {
             </Link>
           ))}
         </div>
+        <AdsterraNative className="mt-12" />
       </div>
     </div>
   );
