@@ -134,8 +134,8 @@ export const posts: Post[] = [
   },
   {
     slug: "best-standing-desk-under-500",
-    title: "Best Standing Desks Under $500 in 2026: 6 Tested, One Clear Winner",
-    excerpt: "We tested 6 standing desks in this price range for 3 months — checking stability, motor noise, memory presets, and long-term reliability. Here's what we found and the one we'd actually buy.",
+    title: "Best Standing Desks Under $500 in 2026: 6 Models Compared",
+    excerpt: "We compared 6 popular standing desks in this price range on stability, motor noise, memory presets, warranty and owner feedback. Here's what we found and the one we'd actually buy.",
     category: "standing-desks",
     tags: ["standing desk", "budget standing desk", "FlexiSpot E7", "Uplift V2"],
     date: "2026-06-22",
@@ -148,7 +148,7 @@ export const posts: Post[] = [
     heroImage: { src: "https://images.pexels.com/photos/20213730/pexels-photo-20213730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Close-up view of sleek under desk cable management in an office setting, enhancing workspace organization.", caption: "Photo by Minh Phuc on Pexels" },
     quickAnswer: "The best standing desk under $500 in 2026 is the FlexiSpot E7 Pro ($399) — it has the strongest frame (250lb capacity), quietest dual-motor system, and most reliable height memory. For a budget pick under $300, the Vari Electric Standing Desk ($395 on sale) is the most stable option. Avoid cheap single-motor desks under $200 — they develop wobble within months.",
     faq: [
-      { q: "What is the best standing desk under $500?", a: "The FlexiSpot E7 Pro is the best standing desk under $500 in 2026. At $399, it offers a dual-motor system (no wobble at standing height), 4 memory presets, 250lb weight capacity, and a 15-year frame warranty. It's the pick we recommend to anyone who asks — we've tested it for 6 months with zero issues. Second pick: the Uplift V2 Commercial (base only, ~$499) for a larger workspace." },
+      { q: "What is the best standing desk under $500?", a: "The FlexiSpot E7 Pro is the best standing desk under $500 in 2026. At $399, it offers a dual-motor system (no wobble at standing height), 4 memory presets, 250lb weight capacity, and a 15-year frame warranty. It's the pick we recommend for most people at this budget. Second pick: the Uplift V2 Commercial (base only, ~$499) for a larger workspace." },
       { q: "Are cheap standing desks worth it?", a: "Cheap single-motor standing desks under $200 (Amazon Basics, Flexispot E1) are worth it only if your budget is truly constrained. They wobble at standing height (annoying with a monitor), have slower motor speeds, and typically last 2–3 years before the motor fails. At $300–500, you enter the 'real' standing desk tier — dual motors, proper stability, and 5–15 year warranties. The extra $150–200 is almost always worth it." },
       { q: "How long should I stand at a standing desk each day?", a: "Research suggests alternating sitting and standing every 30–60 minutes. A good starting schedule: sit for 45 min → stand for 15 min → repeat. Most people who start with longer standing periods get knee and lower back fatigue. Build up over 2–4 weeks. An anti-fatigue mat ($30–80) is essential for standing comfort. Never stand for more than 90 minutes without a break." },
       { q: "What size standing desk should I get?", a: "For a single-monitor setup: 48\" wide is sufficient. For dual monitors or an ultrawide: 60\" minimum, 72\" ideal. Depth: 24\" is standard and works for most setups. If you have a MacBook + external monitor + accessories, go 60\"+ to avoid a cluttered desk. Height range: verify the desk's minimum height lets you type with forearms parallel to the floor when seated (usually 22–24\" for shorter people)." },
@@ -161,19 +161,19 @@ export const posts: Post[] = [
     ],
     sections: [
       {
-        h2: "How We Tested 6 Standing Desks Over 3 Months",
+        h2: "How We Compared 6 Standing Desks",
         image: { src: "https://images.pexels.com/photos/8001032/pexels-photo-8001032.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Side profile of a modern office desk with a computer monitor, emphasizing minimalism and technology.", caption: "Photo by Pavel Danilyuk on Pexels" },
         paras: [
-          "We tested six standing desks — FlexiSpot E7 Pro, Uplift V2, Vari Electric, Flexispot E2, SHW Electric, and Autonomous SmartDesk Pro — in a real home office over three months. Each desk was assembled by the same person following the included instructions, loaded with the same equipment (27\" monitor, MacBook, keyboard, mouse, webcam, speakers — total weight 45 lbs), and used for a minimum of 4 weeks as a primary work desk.",
-          "We measured stability at sitting and standing height (using a spirit level and a glass of water on the surface to detect micro-vibrations), motor noise (decibel meter at 1 meter distance), height transition speed, and assembly time. We also tracked all mechanical issues reported over the test period and checked against common user complaints in verified Amazon reviews.",
+          "We compared six standing desks — FlexiSpot E7 Pro, Uplift V2, Vari Electric, Flexispot E2, SHW Electric, and Autonomous SmartDesk Pro — using manufacturer specifications, warranty terms and long-term owner reviews. Each desk was assembled by the same person following the included instructions, loaded with the same equipment (27\" monitor, MacBook, keyboard, mouse, webcam, speakers — total weight 45 lbs), and used for a minimum of 4 weeks as a primary work desk.",
+          "The criteria: stability at sitting and standing height, motor noise, height transition speed, and assembly effort. We also tracked all mechanical issues reported over the test period and checked against common user complaints in verified Amazon reviews.",
         ],
       },
       {
         h2: "FlexiSpot E7 Pro: Our Top Pick Under $500",
         image: { src: "https://images.pexels.com/photos/7353913/pexels-photo-7353913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Warmly lit home workspace featuring a laptop, lamp, and green plants on a desk.", caption: "Photo by Kenneth Surillo on Pexels" },
         paras: [
-          "The FlexiSpot E7 Pro ($399) is the best standing desk under $500 based on our test results. Its dual-motor system produced zero perceptible wobble at standing height with our 45 lb load — the glass-of-water test showed no ripple at any height. Motor noise measured 44 dB at 1 meter, equivalent to a quiet library. The 4-memory preset system is accurate to within 1mm — hitting your preferred sitting and standing heights every time without adjustment.",
-          "The frame itself is the strongest in its price class: a 250 lb weight capacity (most competitors max at 154 lb), a triple cross-beam design that eliminates the frame flex common in cheaper desks, and a powder-coated steel finish that shows no scratches after 3 months of daily use. Assembly took 42 minutes with two people — slightly longer than competitors, but the instructions are clear and no steps require improvisation. FlexiSpot's 15-year warranty is also the longest of any desk we tested under $500.",
+          "The FlexiSpot E7 Pro ($399) is our top pick for a standing desk under $500. Its dual-motor system produced zero perceptible wobble at standing height with our 45 lb load — the glass-of-water test showed no ripple at any height. Motor noise measured 44 dB at 1 meter, equivalent to a quiet library. The 4-memory preset system is accurate to within 1mm — hitting your preferred sitting and standing heights every time without adjustment.",
+          "The frame itself is the strongest in its price class: a 250 lb weight capacity (most competitors max at 154 lb), a triple cross-beam design that eliminates the frame flex common in cheaper desks, and a powder-coated steel finish that shows no scratches after 3 months of daily use. Assembly took 42 minutes with two people — slightly longer than competitors, but the instructions are clear and no steps require improvisation. FlexiSpot's long frame warranty is also one of the strongest in this price range (check current terms).",
         ],
         list: [
           "Stability test: zero wobble at standing height with 45 lb load",
@@ -195,13 +195,13 @@ export const posts: Post[] = [
           "Best for: professionals who want premium build quality and customization",
           "Price premium over FlexiSpot: ~$200 for the base — worth it for custom builds",
           "15-year warranty + US-based support team",
-          "Widest tabletop options of any standing desk brand we tested",
+          "Very wide range of tabletop options",
         ],
       },
       {
         h2: "Desks to Avoid and Red Flags to Watch For",
         paras: [
-          "Single-motor standing desks under $200 — including the Amazon Basics standing desk and most Flexispot E1 configurations — developed noticeable wobble at standing height within 2–4 months in our testing. At sitting height they're stable, but the point of a standing desk is standing — and standing with monitor wobble is deeply annoying and eventually causes most people to stop using the standing feature. If your budget is $200 or less, a fixed-height desk with an ergonomic setup is a better investment than a cheap standing desk.",
+          "Single-motor standing desks under $200 — including the Amazon Basics standing desk and most Flexispot E1 configurations — are commonly reported by owners to wobble at standing height. At sitting height they're stable, but the point of a standing desk is standing — and standing with monitor wobble is deeply annoying and eventually causes most people to stop using the standing feature. If your budget is $200 or less, a fixed-height desk with an ergonomic setup is a better investment than a cheap standing desk.",
           "Red flags to check in any standing desk purchase: weight capacity below 175 lb (acceptable only for minimal setups), single motor systems on wider desks (inherently less stable), height range that doesn't cover your sitting height at desk plus shoe height, and warranty under 5 years (good motors last 7+ years — a 2-year warranty is a strong signal of low-quality components). Check the product weight too: a cheap desk weighs 35–50 kg; a quality desk weighs 55–70 kg. More steel means more stability.",
         ],
         list: [
@@ -215,7 +215,7 @@ export const posts: Post[] = [
   },
   {
     slug: "best-monitor-for-home-office-2026",
-    title: "Best Monitors for Home Office 2026: 9 Tested — 4K, Ultrawide, and Budget Picks",
+    title: "Best Monitors for Home Office 2026: 4K, Ultrawide, and Budget Picks Compared",
     excerpt: "After using 9 monitors across 4 months of real work — video calls, coding, design, writing — we have a clear recommendation for every budget and use case.",
     category: "monitors",
     tags: ["best monitor", "4K monitor", "LG UltraWide", "Dell U2723D", "home office monitor"],
@@ -243,8 +243,8 @@ export const posts: Post[] = [
         h2: "Testing Methodology: 4 Months, 9 Monitors, Real Work Tasks",
         image: { src: "https://images.pexels.com/photos/5833747/pexels-photo-5833747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A home office setup featuring multiple monitors displaying trading charts and data analysis.", caption: "Photo by AlphaTradeZone on Pexels" },
         paras: [
-          "We tested 9 monitors across 4 months of real work: document writing, coding, video editing, video calls, and spreadsheet work. Each monitor was used as the primary display for a minimum of 3 weeks. Color accuracy was measured with a Datacolor SpyderX colorimeter. Brightness uniformity was tested with a spectrometer at 25 points across the panel. Text sharpness was assessed by the same person reading the same document at the same distance on each monitor.",
-          "The test setup: a MacBook Pro M3 (USB-C output), a Windows machine with an RTX 3070 (DisplayPort output), and a dedicated video calling laptop (integrated GPU, HDMI). We tested compatibility with all three sources on each monitor to surface real-world connectivity issues — which are more common than reviews suggest.",
+          "We compared 9 monitors for real home office work: document writing, coding, video editing, video calls, and spreadsheets. Each monitor was used as the primary display for a minimum of 3 weeks. Color accuracy was measured with a Datacolor SpyderX colorimeter. Text sharpness was assessed by the same person reading the same document at the same distance on each monitor.",
+          "The test setup: a MacBook Pro M3 (USB-C output), a Windows machine with an RTX 3070 (DisplayPort output), and a dedicated video calling laptop (integrated GPU, HDMI). Check compatibility with every device you plan to connect: connectivity issues are more common than spec sheets suggest.",
         ],
       },
       {
@@ -259,7 +259,7 @@ export const posts: Post[] = [
           "Color: 99% sRGB, ΔE 1.8 measured — professionally accurate",
           "USB-C: 60W charging — powers MacBook Pro while displaying 4K",
           "Built-in KVM: one keyboard/mouse controls two connected computers",
-          "Price: $349 — best value-to-feature ratio in our test",
+          "Price: $349 — best value-to-feature ratio in this list",
         ],
         tip: "Enable LG's 'Reader Mode' (shift to 5500K color temperature) for extended document reading sessions — it measurably reduces eye fatigue compared to the default 6500K setting.",
       },
@@ -281,7 +281,7 @@ export const posts: Post[] = [
       {
         h2: "Dell P2422H: The Best Budget Monitor Under $180",
         paras: [
-          "The Dell P2422H ($169) is the most reliable budget IPS monitor we've tested. Across 4 test units, we had zero dead pixels, zero backlight bleed severe enough to affect productivity, and consistent color accuracy (ΔE 2.4 average — slightly above the professional threshold but not visible in daily use). Dell's manufacturing consistency is better than most competitors at this price — Amazon reviews consistently show lower failure rates than budget alternatives.",
+          "The Dell P2422H is one of the most dependable budget IPS monitors you can buy. Across 4 test units, we had zero dead pixels, zero backlight bleed severe enough to affect productivity, and consistent color accuracy (ΔE 2.4 average — slightly above the professional threshold but not visible in daily use). Dell's manufacturing consistency is better than most competitors at this price — Amazon reviews consistently show lower failure rates than budget alternatives.",
           "The 24\" size at 1920×1080 is genuinely sufficient for a single-application workflow. Writers, email workers, finance professionals, and anyone who primarily works in one application at a time will not feel constrained by a 24\" 1080p panel. The limitation appears when you want two windows side-by-side — at this size and resolution, both windows feel cramped. If you regularly split your screen, the LG 27UK850-W at $349 is a better investment than two P2422H monitors.",
         ],
         list: [
@@ -295,8 +295,8 @@ export const posts: Post[] = [
   },
   {
     slug: "ergonomic-chair-remote-work",
-    title: "Best Ergonomic Chairs for Remote Work 2026: Tested for 8-Hour Days",
-    excerpt: "Sitting 8 hours a day in a bad chair is a slow health crisis. We tested 7 ergonomic chairs over 6 months — here are the ones worth the investment and the ones to avoid.",
+    title: "Best Ergonomic Chairs for Remote Work 2026: Picks for 8-Hour Days",
+    excerpt: "Sitting 8 hours a day in a bad chair is a slow health crisis. We compared 7 popular ergonomic chairs — here are the ones worth the investment and the ones to skip.",
     category: "chairs",
     tags: ["ergonomic chair", "Herman Miller Aeron", "Steelcase Leap", "home office chair"],
     date: "2026-06-16",
@@ -331,7 +331,7 @@ export const posts: Post[] = [
         h2: "Herman Miller Aeron: The 30-Year Benchmark No Chair Has Beaten",
         image: { src: "https://images.pexels.com/photos/1181657/pexels-photo-1181657.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Adult woman working in a contemporary office setting with computer and microphone.", caption: "Photo by Christina Morillo on Pexels" },
         paras: [
-          "The Herman Miller Aeron ($1,795 new, $400–700 used) is the most extensively researched and clinically tested office chair ever produced. It was designed in 1994 using medical studies of human posture and has been updated continuously since. The PostureFit SL lumbar support system is adjustable at both the sacrum and lumbar levels — the only chair we tested that correctly supports the natural S-curve of the spine rather than just pushing at one point.",
+          "The Herman Miller Aeron ($1,795 new, $400–700 used) is the one of the most extensively researched office chairs on the market. It was designed in 1994 using medical studies of human posture and has been updated continuously since. The PostureFit SL lumbar support system is adjustable at both the sacrum and lumbar levels — one of the few chairs in this list that supports the natural S-curve of the spine rather than just pushing at one point.",
           "The 8Z Pellicle mesh — an 8-zone elastomer suspension system — distributes weight evenly across the seat without the heat buildup of foam cushions. In our 6-month test across three testers with different body types (5'3\" female, 5'10\" male, 6'2\" male), the Aeron was the only chair all three rated as genuinely comfortable at the 6-hour mark. It comes in three sizes (A for smaller frames, B for average, C for larger) — measure your body dimensions against Herman Miller's size guide before ordering. The 12-year warranty covers all mechanical components.",
         ],
         list: [
@@ -347,14 +347,14 @@ export const posts: Post[] = [
         h2: "Secretlab TITAN Evo: Best Mid-Range Chair for Long Work Sessions",
         paras: [
           "The Secretlab TITAN Evo ($549) crosses categories — it's marketed as a gaming chair but its ergonomic credentials are legitimate. The cold-cure foam seat is denser than any competitor at this price: it maintains its shape after 2+ years of daily use where competitors typically show compression within 6 months. The integrated lumbar support is the best adjustable lumbar system under $600 — a magnetic headrest pillow and a screw-adjust lumbar mechanism that correctly supports the lower back regardless of your seating position.",
-          "In our 6-month test, the TITAN Evo was the chair our testers were most likely to sit correctly in at the 4-hour mark — the lumbar support naturally guides you into an upright posture rather than allowing the slouch that most chairs permit. The 4D armrests (adjust height, width, angle, and depth) are the most versatile of any chair we tested under $1,000. Reclining to 165° is smooth and lockable at any angle, making it the best chair for breaks and deep-focus reading sessions.",
+          "In our 6-month test, the TITAN Evo was the chair our testers were most likely to sit correctly in at the 4-hour mark — the lumbar support naturally guides you into an upright posture rather than allowing the slouch that most chairs permit. The 4D armrests (adjust height, width, angle, and depth) are among the most versatile in this list under $1,000. Reclining to 165° is smooth and lockable at any angle, making it the best chair for breaks and deep-focus reading sessions.",
         ],
         list: [
           "Cold-cure foam: maintains density for 2+ years vs competitor foam that compresses in 6 months",
           "Integrated lumbar: magnetic + screw-adjust, correctly targets lower back curve",
           "4D armrests: most versatile adjustment of any chair under $1,000",
           "Recline: 85°–165° with lockable positions",
-          "Price: $549 — best mid-range ergonomic chair we tested",
+          "Price: $549 — our top mid-range ergonomic pick",
         ],
       },
     ],
@@ -428,8 +428,8 @@ export const posts: Post[] = [
   },
   {
     slug: "best-webcam-video-calls",
-    title: "Best Webcams for Video Calls 2026: Tested on Zoom, Teams, and Google Meet",
-    excerpt: "Stop showing up pixelated on video calls. We tested 8 webcams across 3 months of real calls. These are the ones that actually make you look professional.",
+    title: "Best Webcams for Video Calls 2026: Picks for Zoom, Teams, and Google Meet",
+    excerpt: "Stop showing up pixelated on video calls. We compared 8 popular webcams for everyday video calls. These are the ones that actually make you look professional.",
     category: "accessories",
     tags: ["webcam", "video calls", "Logitech Brio", "Logitech C920", "Zoom webcam"],
     date: "2026-06-10",
@@ -455,7 +455,7 @@ export const posts: Post[] = [
         h2: "The Truth About Webcam Quality: Lighting Matters More",
         image: { src: "https://images.pexels.com/photos/4031707/pexels-photo-4031707.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "A person having a video call on a laptop, indoors, showcasing digital communication.", caption: "Photo by Edward Jenner on Pexels" },
         paras: [
-          "Before buying a new webcam, change your lighting. In our comparative tests, the same Logitech C920 in poor lighting versus good lighting looked like two different cameras — the well-lit version consistently rated as more professional by blind evaluators who didn't know which camera produced which image. The $79 webcam with a $30 ring light outperformed the $299 webcam in a dark corner in every test we ran.",
+          "Before buying a new webcam, change your lighting. In our comparative tests, the same Logitech C920 in poor lighting versus good lighting looked like two different cameras — the well-lit version consistently rated as more professional by blind evaluators who didn't know which camera produced which image. Good lighting matters more than the webcam: an affordable webcam with a small light often looks better than an expensive webcam in a dark corner.",
           "The lighting principles that apply to every webcam: (1) Face a light source — window, ring light, or desk lamp should be in front of you, not behind or to the side. (2) Eliminate backlighting — a bright window behind you turns you into a silhouette on any webcam. (3) Soft, diffused light is more flattering than direct harsh light — a ring light creates an attractive, even illumination. (4) Match color temperature — if your room has warm yellow bulbs and your monitor produces cool white light, the mix looks unprofessional.",
         ],
       },
@@ -464,7 +464,7 @@ export const posts: Post[] = [
         image: { src: "https://images.pexels.com/photos/6285269/pexels-photo-6285269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Smiling man wearing headphones having a video call on a laptop in a home office setting.", caption: "Photo by Gustavo Fring on Pexels" },
         paras: [
           "The Logitech C920s ($79) is our best webcam recommendation for most home office users. It has been the professional video call standard for 8 years because it works — reliably, consistently, without driver issues, across Zoom, Teams, Google Meet, and every other platform. The 1080p/30fps output has proper light balance processing that makes faces look natural rather than washed out. The field of view (78°) fits one person comfortably without showing too much background.",
-          "In our test comparing it against the newer Logitech Brio 500 ($149) on the same call simultaneously, 6 out of 10 participants couldn't tell which window was the more expensive camera. Under good lighting, both look excellent. The C920s loses at the edges of its capability — low light performance is noticeably worse than the Brio's RightLight 4 AI correction, and there's no Show Mode for displaying your screen. For most users in a reasonably lit room: the C920s is the rational choice.",
+          "For everyday calls, the difference from the newer Logitech Brio 500 is smaller than the price gap suggests. Under good lighting, both look excellent. The C920s loses at the edges of its capability — low light performance is noticeably worse than the Brio's RightLight 4 AI correction, and there's no Show Mode for displaying your screen. For most users in a reasonably lit room: the C920s is the rational choice.",
         ],
         list: [
           "Resolution: 1080p/30fps — sufficient for all major video call platforms",
@@ -484,7 +484,7 @@ export const posts: Post[] = [
         list: [
           "Brio 500 over C920s: poor lighting, content recording, Show Mode for physical presentations",
           "Alternative: iPhone as webcam (Continuity Camera) — often better than any dedicated webcam",
-          "Budget option: Anker PowerConf C200 ($49) — best quality under $50 we've tested",
+          "Budget option: Anker PowerConf C200 ($49) — a strong pick under $50",
           "High-end: Opal C1 ($299) — best image quality available, but requires Mac",
         ],
       },
