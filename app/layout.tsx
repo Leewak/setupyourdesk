@@ -17,7 +17,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${inter.variable} ${dmSerif.variable}`}>
       <head>
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9394532963824272" crossOrigin="anonymous" strategy="afterInteractive" />
       </head>
       <body className="min-h-screen flex flex-col antialiased" style={{ background: "#F5F4F0", color: "#1A1916" }}>
         <header style={{ background: "#FFFFFF", borderBottom: "1px solid #E8E6E0" }}>
